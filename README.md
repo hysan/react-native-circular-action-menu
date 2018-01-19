@@ -3,6 +3,13 @@ Path-esque circular action menu inspired by [CircularFloatingActionMenu](https:/
 
 ![react-native-circular-action-menu demo](http://i.giphy.com/3o6Zt6hNHOd3kVx4aY.gif)
 
+## Compatibility
+
+| Release       | React Native  | Notes        |
+| ------------- |:-------------:|:------------:|
+| >= v1.2.0     | >= v0.43.0    | [`PropTypes`](https://reactjs.org/docs/typechecking-with-proptypes.html) was extracted from React in the [v15.5.0 release](https://reactjs.org/blog/2017/04/07/react-v15.5.0.html#migrating-from-react.proptypes). As such, it is now a separate package, [`prop-types`](https://github.com/facebook/prop-types), and is now an additional dependency for this project.
+| <= v1.1.0     | <= v0.42.3    |              |
+
 ### Installation
 ```bash
 npm i react-native-circular-action-menu --save
